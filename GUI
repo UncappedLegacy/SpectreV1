@@ -1,0 +1,1648 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Dropshadow = Instance.new("ImageLabel")
+local Body = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Bar = Instance.new("Frame")
+local Filler = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local Loading = Instance.new("TextLabel")
+local GradientFrame = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local CoverFrame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local HomeToggle = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local SettingsToggle = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local MusicPlayerToggle = Instance.new("ImageButton")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local LocalToggle = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ScriptHubToggle = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local CloseScript = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local Time = Instance.new("TextLabel")
+local MusicFrameWIP = Instance.new("Frame")
+local Title_2 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local MusicPlayer = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local MUSICID = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local Play = Instance.new("ImageButton")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local Pause = Instance.new("ImageButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local PlayBackSpeed = Instance.new("TextBox")
+local UICorner_17 = Instance.new("UICorner")
+local ApplsPlaybackSpeed = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local HomeFrame = Instance.new("Frame")
+local PlayerIcon = Instance.new("ImageLabel")
+local UICorner_19 = Instance.new("UICorner")
+local PlayerName = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Version = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Changelog = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local Info = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local Supportedexecutors = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local Seperator = Instance.new("Frame")
+local LocalPlayerFrame = Instance.new("Frame")
+local Title_3 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local Settings = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local WSINPUT = Instance.new("TextBox")
+local UICorner_25 = Instance.new("UICorner")
+local ApplyWs = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextLabel_18 = Instance.new("TextLabel")
+local JPINPUT = Instance.new("TextBox")
+local UICorner_27 = Instance.new("UICorner")
+local ApplyJp = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local ApplyGrav = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local GRAVINPUT = Instance.new("TextBox")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local Reset = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local Rejoin = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local InfJump = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local UIGradient_17 = Instance.new("UIGradient")
+local ScriptHubFrame = Instance.new("Frame")
+local Title_4 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local ESP = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local ESPLaunch = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local UIGradient_18 = Instance.new("UIGradient")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local OWLHUB = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local OWLHUBLaunch = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local UIGradient_19 = Instance.new("UIGradient")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local MiscFrame = Instance.new("Frame")
+local Misc = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local TextLabel_25 = Instance.new("TextLabel")
+local SaveInstance = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local Loadstringer = Instance.new("Frame")
+local UICorner_41 = Instance.new("UICorner")
+local TextLabel_27 = Instance.new("TextLabel")
+local LoadString = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local UIGradient_21 = Instance.new("UIGradient")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local LinkInput = Instance.new("TextBox")
+local UICorner_43 = Instance.new("UICorner")
+local Credits = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local Drag = Instance.new("Frame")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local UIStroke = Instance.new("UIStroke")
+local UIStroke_2 = Instance.new("UIStroke")
+local UIStroke_3 = Instance.new("UIStroke")
+local UIStroke_4 = Instance.new("UIStroke")
+local UIStroke_5 = Instance.new("UIStroke")
+local UIStroke_6 = Instance.new("UIStroke")
+local UIStroke_7 = Instance.new("UIStroke")
+local UIStroke_8 = Instance.new("UIStroke")
+local UIStroke_9 = Instance.new("UIStroke")
+local UIStroke_10 = Instance.new("UIStroke")
+local UIStroke_11 = Instance.new("UIStroke")
+local UIStroke_12 = Instance.new("UIStroke")
+local UIStroke_13 = Instance.new("UIStroke")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Dropshadow.Name = "Dropshadow"
+Dropshadow.Parent = ScreenGui
+Dropshadow.AnchorPoint = Vector2.new(0.5, 0.5)
+Dropshadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dropshadow.BackgroundTransparency = 1.000
+Dropshadow.Position = UDim2.new(0, 473, 0, 316)
+Dropshadow.Size = UDim2.new(0, 650, 0, 403)
+Dropshadow.Image = "rbxassetid://9254250385"
+Dropshadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Dropshadow.ImageTransparency = 0.300
+Dropshadow.ScaleType = Enum.ScaleType.Slice
+Dropshadow.SliceCenter = Rect.new(78, 78, 78, 78)
+Dropshadow.Draggable = true
+Dropshadow.Active = true
+
+Body.Name = "Body"
+Body.Parent = Dropshadow
+Body.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Body.BorderSizePixel = 0
+Body.Position = UDim2.new(0.0702056661, 0, 0.0867025927, 0)
+Body.Size = UDim2.new(0.862184048, 0, 0.823339522, 0)
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = Body
+
+ImageLabel.Parent = Body
+ImageLabel.Active = true
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 560, 0, 179)
+ImageLabel.Visible = false
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9363970800"
+
+UICorner_2.Parent = ImageLabel
+
+Bar.Name = "Bar"
+Bar.Parent = Body
+Bar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0.196078435, 0, 0.772024632, 0)
+Bar.Size = UDim2.new(0, 341, 0, 7)
+Bar.Visible = false
+
+Filler.Name = "Filler"
+Filler.Parent = Bar
+Filler.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Filler.BorderSizePixel = 0
+Filler.Position = UDim2.new(-0.000480942719, 0, -0.085144043, 0)
+Filler.Size = UDim2.new(0, 0, 0, 7)
+
+UICorner_3.Parent = Filler
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 106, 0))}
+UIGradient.Parent = Filler
+
+UICorner_4.Parent = Bar
+
+Loading.Name = "Loading%"
+Loading.Parent = Body
+Loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loading.BackgroundTransparency = 1.000
+Loading.BorderSizePixel = 0
+Loading.Position = UDim2.new(0.456327975, 0, 0.692771077, 0)
+Loading.Size = UDim2.new(0, 48, 0, 19)
+Loading.Visible = false
+Loading.Font = Enum.Font.GothamBold
+Loading.Text = "%"
+Loading.TextColor3 = Color3.fromRGB(183, 0, 255)
+Loading.TextSize = 20.000
+
+GradientFrame.Name = "GradientFrame"
+GradientFrame.Parent = Body
+GradientFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+GradientFrame.BorderSizePixel = 0
+GradientFrame.Position = UDim2.new(0, 0, 0.114457816, 0)
+GradientFrame.Size = UDim2.new(0, 560, 0, 141)
+GradientFrame.Visible = false
+
+UIGradient_2.Rotation = 270
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 1.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+UIGradient_2.Parent = GradientFrame
+
+CoverFrame.Name = "CoverFrame"
+CoverFrame.Parent = Body
+CoverFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CoverFrame.BackgroundTransparency = 1.000
+CoverFrame.BorderSizePixel = 0
+CoverFrame.Size = UDim2.new(0, 561, 0, 179)
+CoverFrame.Visible = false
+
+UICorner_5.Parent = CoverFrame
+
+Main.Name = "Main"
+Main.Parent = Body
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BackgroundTransparency = 1.000
+Main.BorderSizePixel = 0
+Main.Size = UDim2.new(0, 561, 0, 332)
+
+HomeToggle.Name = "HomeToggle"
+HomeToggle.Parent = Main
+HomeToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeToggle.BorderSizePixel = 0
+HomeToggle.Position = UDim2.new(0.023, 0, 0.123000003, 0)
+HomeToggle.Size = UDim2.new(0, 52, 0, 52)
+
+UICorner_6.Parent = HomeToggle
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(183, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 136, 0))}
+UIGradient_3.Rotation = 45
+UIGradient_3.Parent = HomeToggle
+
+ImageLabel_2.Parent = HomeToggle
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.157692388, 0, 0.157692418, 0)
+ImageLabel_2.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel_2.Image = "rbxassetid://6026568198"
+
+SettingsToggle.Name = "SettingsToggle"
+SettingsToggle.Parent = Main
+SettingsToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsToggle.BorderSizePixel = 0
+SettingsToggle.Position = UDim2.new(0.0231729075, 0, 0.807228923, 0)
+SettingsToggle.Size = UDim2.new(0, 52, 0, 52)
+
+UICorner_7.Parent = SettingsToggle
+
+ImageLabel_3.Parent = SettingsToggle
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.176923156, 0, 0.157692418, 0)
+ImageLabel_3.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel_3.Image = "rbxassetid://6031280882"
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_4.Rotation = 45
+UIGradient_4.Parent = SettingsToggle
+
+MusicPlayerToggle.Name = "MusicPlayerToggle"
+MusicPlayerToggle.Parent = Main
+MusicPlayerToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MusicPlayerToggle.BorderSizePixel = 0
+MusicPlayerToggle.Position = UDim2.new(0.023, 0, 0.465000004, 0)
+MusicPlayerToggle.Size = UDim2.new(0, 52, 0, 52)
+
+UICorner_8.Parent = MusicPlayerToggle
+
+ImageLabel_4.Parent = MusicPlayerToggle
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.176923156, 0, 0.157692418, 0)
+ImageLabel_4.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel_4.Image = "rbxassetid://6034323673"
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 255, 137)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_5.Rotation = 45
+UIGradient_5.Parent = MusicPlayerToggle
+
+LocalToggle.Name = "LocalToggle"
+LocalToggle.Parent = Main
+LocalToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalToggle.BorderSizePixel = 0
+LocalToggle.Position = UDim2.new(0.023, 0, 0.294, 0)
+LocalToggle.Size = UDim2.new(0, 52, 0, 52)
+
+UICorner_9.Parent = LocalToggle
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(183, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(21, 0, 255))}
+UIGradient_6.Rotation = 45
+UIGradient_6.Parent = LocalToggle
+
+ImageLabel_5.Parent = LocalToggle
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.176923305, 0, 0.157692537, 0)
+ImageLabel_5.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel_5.Image = "rbxassetid://6022668898"
+
+ScriptHubToggle.Name = "ScriptHubToggle"
+ScriptHubToggle.Parent = Main
+ScriptHubToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubToggle.BorderSizePixel = 0
+ScriptHubToggle.Position = UDim2.new(0.0231729057, 0, 0.635542095, 0)
+ScriptHubToggle.Size = UDim2.new(0, 52, 0, 52)
+
+UICorner_10.Parent = ScriptHubToggle
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(6, 101, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 174))}
+UIGradient_7.Rotation = 45
+UIGradient_7.Parent = ScriptHubToggle
+
+ImageLabel_6.Parent = ScriptHubToggle
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.196153939, 0, 0.157692418, 0)
+ImageLabel_6.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel_6.Image = "rbxassetid://6022668888"
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.431372553, 0, 0.015060287, 0)
+Title.Size = UDim2.new(0, 74, 0, 25)
+Title.Font = Enum.Font.Gotham
+Title.Text = "Spectre"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 20.000
+Title.TextWrapped = true
+
+CloseScript.Name = "CloseScript"
+CloseScript.Parent = Main
+CloseScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseScript.BorderSizePixel = 0
+CloseScript.Position = UDim2.new(0.948975265, 0, 0.0301205274, 0)
+CloseScript.Size = UDim2.new(0, 16, 0, 16)
+CloseScript.Font = Enum.Font.SourceSans
+CloseScript.Text = ""
+CloseScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseScript.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(5, 0)
+UICorner_11.Parent = CloseScript
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 141, 1))}
+UIGradient_8.Rotation = 45
+UIGradient_8.Parent = CloseScript
+
+Time.Name = "Time"
+Time.Parent = Main
+Time.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Time.BackgroundTransparency = 1.000
+Time.BorderSizePixel = 0
+Time.Position = UDim2.new(0.0231728107, 0, 0.0271085203, 0)
+Time.Size = UDim2.new(0, 61, 0, 16)
+Time.Font = Enum.Font.Gotham
+Time.Text = "10:46 PM"
+Time.TextColor3 = Color3.fromRGB(255, 255, 255)
+Time.TextSize = 14.000
+Time.TextWrapped = true
+
+MusicFrameWIP.Name = "MusicFrameWIP"
+MusicFrameWIP.Parent = Main
+MusicFrameWIP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MusicFrameWIP.BackgroundTransparency = 1.000
+MusicFrameWIP.BorderSizePixel = 0
+MusicFrameWIP.Position = UDim2.new(0.13903743, 0, 0.120481931, 0)
+MusicFrameWIP.Size = UDim2.new(0, 470, 0, 280)
+MusicFrameWIP.Visible = false
+
+Title_2.Name = "Title"
+Title_2.Parent = MusicFrameWIP
+Title_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Title_2.Position = UDim2.new(0.0446808524, 0, 0.020742923, 0)
+Title_2.Size = UDim2.new(0, 423, 0, 38)
+
+UICorner_12.Parent = Title_2
+
+TextLabel.Parent = Title_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 357, 0, 38)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Music Player"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+MusicPlayer.Name = "MusicPlayer"
+MusicPlayer.Parent = MusicFrameWIP
+MusicPlayer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MusicPlayer.Position = UDim2.new(0.0446808524, 0, 0.188600048, 0)
+MusicPlayer.Size = UDim2.new(0, 423, 0, 218)
+
+UICorner_13.Parent = MusicPlayer
+
+TextLabel_2.Parent = MusicPlayer
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Music Player"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+MUSICID.Name = "MUSICID"
+MUSICID.Parent = MusicPlayer
+MUSICID.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MUSICID.Position = UDim2.new(0.200945631, 0, 0.169724822, 0)
+MUSICID.Size = UDim2.new(0, 252, 0, 38)
+MUSICID.Font = Enum.Font.Gotham
+MUSICID.PlaceholderText = "Enter Music id here"
+MUSICID.Text = ""
+MUSICID.TextColor3 = Color3.fromRGB(255, 255, 255)
+MUSICID.TextSize = 14.000
+
+UICorner_14.Parent = MUSICID
+
+Play.Name = "Play"
+Play.Parent = MusicPlayer
+Play.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Play.Position = UDim2.new(0.404255301, 0, 0.394495428, 0)
+Play.Size = UDim2.new(0, 36, 0, 36)
+
+UICorner_15.Parent = Play
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 166, 255))}
+UIGradient_9.Rotation = 45
+UIGradient_9.Parent = Play
+
+ImageLabel_7.Parent = Play
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.111111112, 0, 0.111111112, 0)
+ImageLabel_7.Size = UDim2.new(0, 27, 0, 27)
+ImageLabel_7.Image = "http://www.roblox.com/asset/?id=6026663699"
+
+Pause.Name = "Pause"
+Pause.Parent = MusicPlayer
+Pause.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pause.Position = UDim2.new(0.510638356, 0, 0.394495428, 0)
+Pause.Size = UDim2.new(0, 36, 0, 36)
+
+UICorner_16.Parent = Pause
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 150, 3)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient_10.Rotation = 45
+UIGradient_10.Parent = Pause
+
+ImageLabel_8.Parent = Pause
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.111111045, 0, 0.111111104, 0)
+ImageLabel_8.Size = UDim2.new(0, 27, 0, 27)
+ImageLabel_8.Image = "http://www.roblox.com/asset/?id=6026663719"
+
+TextLabel_3.Parent = MusicPlayer
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0780141875, 0, 0.573394477, 0)
+TextLabel_3.Size = UDim2.new(0, 357, 0, 22)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Playback speed"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+PlayBackSpeed.Name = "PlayBackSpeed"
+PlayBackSpeed.Parent = MusicPlayer
+PlayBackSpeed.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PlayBackSpeed.Position = UDim2.new(0.0543735325, 0, 0.738532186, 0)
+PlayBackSpeed.Size = UDim2.new(0, 252, 0, 38)
+PlayBackSpeed.Font = Enum.Font.Gotham
+PlayBackSpeed.PlaceholderText = "Enter Playback speed"
+PlayBackSpeed.Text = ""
+PlayBackSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayBackSpeed.TextSize = 14.000
+
+UICorner_17.Parent = PlayBackSpeed
+
+ApplsPlaybackSpeed.Name = "ApplsPlaybackSpeed"
+ApplsPlaybackSpeed.Parent = MusicPlayer
+ApplsPlaybackSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplsPlaybackSpeed.BorderSizePixel = 0
+ApplsPlaybackSpeed.Position = UDim2.new(0.690307319, 0, 0.738532245, 0)
+ApplsPlaybackSpeed.Size = UDim2.new(0, 117, 0, 37)
+ApplsPlaybackSpeed.Font = Enum.Font.Gotham
+ApplsPlaybackSpeed.Text = "Apply"
+ApplsPlaybackSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApplsPlaybackSpeed.TextSize = 14.000
+
+UICorner_18.Parent = ApplsPlaybackSpeed
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(157, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 0, 255))}
+UIGradient_11.Rotation = 45
+UIGradient_11.Parent = ApplsPlaybackSpeed
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Main
+HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeFrame.BackgroundTransparency = 1.000
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.13903743, 0, 0.120481931, 0)
+HomeFrame.Size = UDim2.new(0, 470, 0, 280)
+
+PlayerIcon.Name = "PlayerIcon"
+PlayerIcon.Parent = HomeFrame
+PlayerIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerIcon.BackgroundTransparency = 1.000
+PlayerIcon.Position = UDim2.new(0.0659574494, 0, 0.0857142955, 0)
+PlayerIcon.Size = UDim2.new(0, 64, 0, 64)
+PlayerIcon.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_19.CornerRadius = UDim.new(1, 0)
+UICorner_19.Parent = PlayerIcon
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = HomeFrame
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BackgroundTransparency = 1.000
+PlayerName.BorderSizePixel = 0
+PlayerName.Position = UDim2.new(0.236170217, 0, 0.171557188, 0)
+PlayerName.Size = UDim2.new(0, 343, 0, 35)
+PlayerName.Font = Enum.Font.Gotham
+PlayerName.Text = "Ducky"
+PlayerName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.TextSize = 45.000
+PlayerName.TextWrapped = true
+PlayerName.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_4.Parent = HomeFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.236170217, 0, 0.100000001, 0)
+TextLabel_4.Size = UDim2.new(0, 343, 0, 20)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Welcome to Spectre,"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Version.Name = "Version"
+Version.Parent = HomeFrame
+Version.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Version.Position = UDim2.new(0.0446808562, 0, 0.38145721, 0)
+Version.Size = UDim2.new(0, 423, 0, 38)
+
+UICorner_20.Parent = Version
+
+TextLabel_5.Parent = Version
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Spectre v0.0.1"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+Changelog.Name = "Changelog"
+Changelog.Parent = HomeFrame
+Changelog.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Changelog.Position = UDim2.new(0.0446808562, 0, 0.560028732, 0)
+Changelog.Size = UDim2.new(0, 204, 0, 114)
+
+UICorner_21.Parent = Changelog
+
+TextLabel_6.Parent = Changelog
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.00434426684, 0, 0.00677168975, 0)
+TextLabel_6.Size = UDim2.new(0, 203, 0, 28)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Changelog"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 12.000
+
+TextLabel_7.Parent = Changelog
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0484619141, 0, 0.252385736, 0)
+TextLabel_7.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "+  Launch"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 12.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = Changelog
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0484619141, 0, 0.383964688, 0)
+TextLabel_8.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "+  UI"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 12.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_9.Parent = Changelog
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.0484619141, 0, 0.51554364, 0)
+TextLabel_9.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "+  Music Player"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 12.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Info.Name = "Info"
+Info.Parent = HomeFrame
+Info.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Info.Position = UDim2.new(0.510638297, 0, 0.560028732, 0)
+Info.Size = UDim2.new(0, 204, 0, 114)
+
+UICorner_22.Parent = Info
+
+Supportedexecutors.Name = "Supported executors"
+Supportedexecutors.Parent = Info
+Supportedexecutors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Supportedexecutors.BackgroundTransparency = 1.000
+Supportedexecutors.BorderSizePixel = 0
+Supportedexecutors.Position = UDim2.new(0.00434426684, 0, 0.00677168975, 0)
+Supportedexecutors.Size = UDim2.new(0, 203, 0, 28)
+Supportedexecutors.Font = Enum.Font.Gotham
+Supportedexecutors.Text = "Supported executors"
+Supportedexecutors.TextColor3 = Color3.fromRGB(255, 255, 255)
+Supportedexecutors.TextSize = 12.000
+
+TextLabel_10.Parent = Info
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0484619141, 0, 0.252385736, 0)
+TextLabel_10.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_10.Font = Enum.Font.Gotham
+TextLabel_10.Text = "Synapse X"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 12.000
+
+TextLabel_11.Parent = Info
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.0484619141, 0, 0.383964688, 0)
+TextLabel_11.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_11.Font = Enum.Font.Gotham
+TextLabel_11.Text = "Krnl"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 12.000
+
+TextLabel_12.Parent = Info
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.0484619141, 0, 0.51554364, 0)
+TextLabel_12.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_12.Font = Enum.Font.Gotham
+TextLabel_12.Text = "Script-Ware"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 12.000
+
+TextLabel_13.Parent = Info
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.0484619141, 0, 0.647122622, 0)
+TextLabel_13.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_13.Font = Enum.Font.Gotham
+TextLabel_13.Text = "Evon"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 12.000
+
+TextLabel_14.Parent = Info
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.0484619141, 0, 0.778701544, 0)
+TextLabel_14.Size = UDim2.new(0, 185, 0, 15)
+TextLabel_14.Font = Enum.Font.Gotham
+TextLabel_14.Text = "Fluxus"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 12.000
+
+Seperator.Name = "Seperator"
+Seperator.Parent = Main
+Seperator.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Seperator.BorderSizePixel = 0
+Seperator.Position = UDim2.new(0, 0, 0.107939743, 0)
+Seperator.Size = UDim2.new(0, 560, 0, 2)
+
+LocalPlayerFrame.Name = "LocalPlayerFrame"
+LocalPlayerFrame.Parent = Main
+LocalPlayerFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayerFrame.BackgroundTransparency = 1.000
+LocalPlayerFrame.BorderSizePixel = 0
+LocalPlayerFrame.Position = UDim2.new(0.13903743, 0, 0.120481931, 0)
+LocalPlayerFrame.Size = UDim2.new(0, 470, 0, 280)
+LocalPlayerFrame.Visible = false
+
+Title_3.Name = "Title"
+Title_3.Parent = LocalPlayerFrame
+Title_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Title_3.Position = UDim2.new(0.0446808524, 0, 0.020742923, 0)
+Title_3.Size = UDim2.new(0, 423, 0, 38)
+
+UICorner_23.Parent = Title_3
+
+TextLabel_15.Parent = Title_3
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_15.Font = Enum.Font.Gotham
+TextLabel_15.Text = "LocalPlayer settings"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+
+Settings.Name = "Settings"
+Settings.Parent = LocalPlayerFrame
+Settings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Settings.Position = UDim2.new(0.0446808524, 0, 0.188600048, 0)
+Settings.Size = UDim2.new(0, 423, 0, 218)
+
+UICorner_24.Parent = Settings
+
+TextLabel_16.Parent = Settings
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 357, 0, 27)
+TextLabel_16.Font = Enum.Font.Gotham
+TextLabel_16.Text = "Player Values"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+TextLabel_17.Parent = Settings
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.0702653155, 0, 0.192660555, 0)
+TextLabel_17.Size = UDim2.new(0, 128, 0, 27)
+TextLabel_17.Font = Enum.Font.Gotham
+TextLabel_17.Text = "Walkspeed"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+
+WSINPUT.Name = "WSINPUT"
+WSINPUT.Parent = Settings
+WSINPUT.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+WSINPUT.BorderSizePixel = 0
+WSINPUT.Position = UDim2.new(0.371158391, 0, 0.192660555, 0)
+WSINPUT.Size = UDim2.new(0, 94, 0, 27)
+WSINPUT.Font = Enum.Font.Gotham
+WSINPUT.PlaceholderText = "WS"
+WSINPUT.Text = ""
+WSINPUT.TextColor3 = Color3.fromRGB(255, 255, 255)
+WSINPUT.TextSize = 14.000
+
+UICorner_25.Parent = WSINPUT
+
+ApplyWs.Name = "ApplyWs"
+ApplyWs.Parent = Settings
+ApplyWs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyWs.BorderSizePixel = 0
+ApplyWs.Position = UDim2.new(0.650118232, 0, 0.192660555, 0)
+ApplyWs.Size = UDim2.new(0, 117, 0, 27)
+ApplyWs.Font = Enum.Font.Gotham
+ApplyWs.Text = "Apply"
+ApplyWs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApplyWs.TextSize = 14.000
+
+UICorner_26.Parent = ApplyWs
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 149)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 153, 255))}
+UIGradient_12.Rotation = 15
+UIGradient_12.Parent = ApplyWs
+
+TextLabel_18.Parent = Settings
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.0702653155, 0, 0.353210986, 0)
+TextLabel_18.Size = UDim2.new(0, 128, 0, 27)
+TextLabel_18.Font = Enum.Font.Gotham
+TextLabel_18.Text = "JumpPower"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+
+JPINPUT.Name = "JPINPUT"
+JPINPUT.Parent = Settings
+JPINPUT.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+JPINPUT.BorderSizePixel = 0
+JPINPUT.Position = UDim2.new(0.371158391, 0, 0.353210986, 0)
+JPINPUT.Size = UDim2.new(0, 94, 0, 27)
+JPINPUT.Font = Enum.Font.Gotham
+JPINPUT.PlaceholderText = "JP"
+JPINPUT.Text = ""
+JPINPUT.TextColor3 = Color3.fromRGB(255, 255, 255)
+JPINPUT.TextSize = 14.000
+
+UICorner_27.Parent = JPINPUT
+
+ApplyJp.Name = "ApplyJp"
+ApplyJp.Parent = Settings
+ApplyJp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyJp.BorderSizePixel = 0
+ApplyJp.Position = UDim2.new(0.650118232, 0, 0.353210986, 0)
+ApplyJp.Size = UDim2.new(0, 117, 0, 27)
+ApplyJp.Font = Enum.Font.Gotham
+ApplyJp.Text = "Apply"
+ApplyJp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApplyJp.TextSize = 14.000
+
+UICorner_28.Parent = ApplyJp
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 179, 0))}
+UIGradient_13.Rotation = 15
+UIGradient_13.Parent = ApplyJp
+
+ApplyGrav.Name = "ApplyGrav"
+ApplyGrav.Parent = Settings
+ApplyGrav.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyGrav.BorderSizePixel = 0
+ApplyGrav.Position = UDim2.new(0.650118232, 0, 0.518348575, 0)
+ApplyGrav.Size = UDim2.new(0, 117, 0, 27)
+ApplyGrav.Font = Enum.Font.Gotham
+ApplyGrav.Text = "Apply"
+ApplyGrav.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApplyGrav.TextSize = 14.000
+
+UICorner_29.Parent = ApplyGrav
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 133, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(191, 0, 255))}
+UIGradient_14.Rotation = 15
+UIGradient_14.Parent = ApplyGrav
+
+GRAVINPUT.Name = "GRAVINPUT"
+GRAVINPUT.Parent = Settings
+GRAVINPUT.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GRAVINPUT.BorderSizePixel = 0
+GRAVINPUT.Position = UDim2.new(0.371158391, 0, 0.518348575, 0)
+GRAVINPUT.Size = UDim2.new(0, 94, 0, 27)
+GRAVINPUT.Font = Enum.Font.Gotham
+GRAVINPUT.PlaceholderText = "GRAV"
+GRAVINPUT.Text = ""
+GRAVINPUT.TextColor3 = Color3.fromRGB(255, 255, 255)
+GRAVINPUT.TextSize = 14.000
+
+UICorner_30.Parent = GRAVINPUT
+
+TextLabel_19.Parent = Settings
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.0702653155, 0, 0.518348575, 0)
+TextLabel_19.Size = UDim2.new(0, 128, 0, 27)
+TextLabel_19.Font = Enum.Font.Gotham
+TextLabel_19.Text = "Gravity"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+Reset.Name = "Reset"
+Reset.Parent = Settings
+Reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Reset.BorderSizePixel = 0
+Reset.Position = UDim2.new(0.0685579926, 0, 0.738531947, 0)
+Reset.Size = UDim2.new(0, 117, 0, 42)
+Reset.Font = Enum.Font.Gotham
+Reset.Text = "Reset"
+Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reset.TextSize = 14.000
+
+UICorner_31.Parent = Reset
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 133, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(191, 0, 255))}
+UIGradient_15.Rotation = 45
+UIGradient_15.Parent = Reset
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = Settings
+Rejoin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rejoin.BorderSizePixel = 0
+Rejoin.Position = UDim2.new(0.361702204, 0, 0.738531947, 0)
+Rejoin.Size = UDim2.new(0, 117, 0, 42)
+Rejoin.Font = Enum.Font.Gotham
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rejoin.TextSize = 14.000
+
+UICorner_32.Parent = Rejoin
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 179, 0))}
+UIGradient_16.Rotation = 45
+UIGradient_16.Parent = Rejoin
+
+InfJump.Name = "InfJump"
+InfJump.Parent = Settings
+InfJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.650118291, 0, 0.738531947, 0)
+InfJump.Size = UDim2.new(0, 117, 0, 42)
+InfJump.Font = Enum.Font.Gotham
+InfJump.Text = "Inf Jump"
+InfJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.TextSize = 14.000
+
+UICorner_33.Parent = InfJump
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 149)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 153, 255))}
+UIGradient_17.Rotation = 45
+UIGradient_17.Parent = InfJump
+
+ScriptHubFrame.Name = "ScriptHubFrame"
+ScriptHubFrame.Parent = Main
+ScriptHubFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubFrame.BackgroundTransparency = 1.000
+ScriptHubFrame.BorderSizePixel = 0
+ScriptHubFrame.Position = UDim2.new(0.13903743, 0, 0.120481931, 0)
+ScriptHubFrame.Size = UDim2.new(0, 470, 0, 280)
+ScriptHubFrame.Visible = false
+
+Title_4.Name = "Title"
+Title_4.Parent = ScriptHubFrame
+Title_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Title_4.Position = UDim2.new(0.0446808524, 0, 0.020742923, 0)
+Title_4.Size = UDim2.new(0, 423, 0, 38)
+
+UICorner_34.Parent = Title_4
+
+TextLabel_20.Parent = Title_4
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_20.Font = Enum.Font.Gotham
+TextLabel_20.Text = "Script Hub"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+ESP.Name = "ESP"
+ESP.Parent = ScriptHubFrame
+ESP.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ESP.Position = UDim2.new(0.0446808524, 0, 0.188600048, 0)
+ESP.Size = UDim2.new(0, 423, 0, 98)
+
+UICorner_35.Parent = ESP
+
+TextLabel_21.Parent = ESP
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_21.Font = Enum.Font.Gotham
+TextLabel_21.Text = "ESP"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_22.Parent = ESP
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.0165484641, 0, 0.240574121, 0)
+TextLabel_22.Size = UDim2.new(0, 265, 0, 74)
+TextLabel_22.Font = Enum.Font.Gotham
+TextLabel_22.Text = "Open source esp by shlex, has box, health, name and out of view arrows"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+
+ESPLaunch.Name = "ESPLaunch"
+ESPLaunch.Parent = ESP
+ESPLaunch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPLaunch.BorderSizePixel = 0
+ESPLaunch.Position = UDim2.new(0.739952624, 0, 0.357142866, 0)
+ESPLaunch.Size = UDim2.new(0, 89, 0, 50)
+ESPLaunch.Font = Enum.Font.Gotham
+ESPLaunch.Text = ""
+ESPLaunch.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPLaunch.TextSize = 20.000
+
+UICorner_36.Parent = ESPLaunch
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 17, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(171, 3, 255))}
+UIGradient_18.Rotation = 15
+UIGradient_18.Parent = ESPLaunch
+
+ImageLabel_9.Parent = ESPLaunch
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(0.24027659, 0, 0.0399999991, 0)
+ImageLabel_9.Size = UDim2.new(0, 45, 0, 45)
+ImageLabel_9.Image = "http://www.roblox.com/asset/?id=6026663699"
+
+OWLHUB.Name = "OWLHUB"
+OWLHUB.Parent = ScriptHubFrame
+OWLHUB.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+OWLHUB.Position = UDim2.new(0.0446808524, 0, 0.59217149, 0)
+OWLHUB.Size = UDim2.new(0, 423, 0, 98)
+
+UICorner_37.Parent = OWLHUB
+
+TextLabel_23.Parent = OWLHUB
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_23.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_23.Font = Enum.Font.Gotham
+TextLabel_23.Text = "Owl Hub"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+
+TextLabel_24.Parent = OWLHUB
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.0165484641, 0, 0.357142866, 0)
+TextLabel_24.Size = UDim2.new(0, 265, 0, 50)
+TextLabel_24.Font = Enum.Font.Gotham
+TextLabel_24.Text = "Universal aimbot and esp, works for almost any game and is customizeable, some games have certain scripts for them too"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+OWLHUBLaunch.Name = "OWLHUBLaunch"
+OWLHUBLaunch.Parent = OWLHUB
+OWLHUBLaunch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OWLHUBLaunch.BorderSizePixel = 0
+OWLHUBLaunch.Position = UDim2.new(0.739952624, 0, 0.357142866, 0)
+OWLHUBLaunch.Size = UDim2.new(0, 89, 0, 50)
+OWLHUBLaunch.Font = Enum.Font.Gotham
+OWLHUBLaunch.Text = ""
+OWLHUBLaunch.TextColor3 = Color3.fromRGB(0, 0, 0)
+OWLHUBLaunch.TextSize = 20.000
+
+UICorner_38.Parent = OWLHUBLaunch
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 183, 0))}
+UIGradient_19.Rotation = 15
+UIGradient_19.Parent = OWLHUBLaunch
+
+ImageLabel_10.Parent = OWLHUBLaunch
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.BorderSizePixel = 0
+ImageLabel_10.Position = UDim2.new(0.24027659, 0, 0.0399999991, 0)
+ImageLabel_10.Size = UDim2.new(0, 45, 0, 45)
+ImageLabel_10.Image = "http://www.roblox.com/asset/?id=6026663699"
+
+MiscFrame.Name = "MiscFrame"
+MiscFrame.Parent = Main
+MiscFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscFrame.BackgroundTransparency = 1.000
+MiscFrame.BorderSizePixel = 0
+MiscFrame.Position = UDim2.new(0.13903743, 0, 0.120481931, 0)
+MiscFrame.Size = UDim2.new(0, 470, 0, 280)
+MiscFrame.Visible = false
+
+Misc.Name = "Misc"
+Misc.Parent = MiscFrame
+Misc.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Misc.Position = UDim2.new(0.0446808524, 0, 0.0207429063, 0)
+Misc.Size = UDim2.new(0, 423, 0, 95)
+
+UICorner_39.Parent = Misc
+
+TextLabel_25.Parent = Misc
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_25.Font = Enum.Font.Gotham
+TextLabel_25.Text = "Misc"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+
+SaveInstance.Name = "SaveInstance"
+SaveInstance.Parent = Misc
+SaveInstance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SaveInstance.BorderSizePixel = 0
+SaveInstance.Position = UDim2.new(0.758865178, 0, 0.424266577, 0)
+SaveInstance.Size = UDim2.new(0, 83, 0, 45)
+SaveInstance.Font = Enum.Font.Gotham
+SaveInstance.Text = ""
+SaveInstance.TextColor3 = Color3.fromRGB(0, 0, 0)
+SaveInstance.TextSize = 14.000
+
+UICorner_40.Parent = SaveInstance
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 149)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 153, 255))}
+UIGradient_20.Rotation = 15
+UIGradient_20.Parent = SaveInstance
+
+ImageLabel_11.Parent = SaveInstance
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(0.28116101, 0, 0.0838383809, 0)
+ImageLabel_11.Size = UDim2.new(0, 36, 0, 36)
+ImageLabel_11.Image = "http://www.roblox.com/asset/?id=6031302931"
+
+TextLabel_26.Parent = Misc
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.0300761908, 0, 0.397846907, 0)
+TextLabel_26.Size = UDim2.new(0, 281, 0, 51)
+TextLabel_26.Font = Enum.Font.Gotham
+TextLabel_26.Text = "Save the game (requires your exploit to have a decompiler)"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+
+Loadstringer.Name = "Loadstringer"
+Loadstringer.Parent = MiscFrame
+Loadstringer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Loadstringer.Position = UDim2.new(0.0446808524, 0, 0.388600051, 0)
+Loadstringer.Size = UDim2.new(0, 423, 0, 92)
+
+UICorner_41.Parent = Loadstringer
+
+TextLabel_27.Parent = Loadstringer
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.0780141875, 0, 0, 0)
+TextLabel_27.Size = UDim2.new(0, 357, 0, 38)
+TextLabel_27.Font = Enum.Font.Gotham
+TextLabel_27.Text = "Link executor (raw text)"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+
+LoadString.Name = "LoadString"
+LoadString.Parent = Loadstringer
+LoadString.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadString.BorderSizePixel = 0
+LoadString.Position = UDim2.new(0.768321455, 0, 0.479207575, 0)
+LoadString.Size = UDim2.new(0, 65, 0, 25)
+LoadString.Font = Enum.Font.Gotham
+LoadString.Text = ""
+LoadString.TextColor3 = Color3.fromRGB(0, 0, 0)
+LoadString.TextSize = 14.000
+
+UICorner_42.Parent = LoadString
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 149, 0))}
+UIGradient_21.Rotation = 25
+UIGradient_21.Parent = LoadString
+
+ImageLabel_12.Parent = LoadString
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(0.285820246, 0, -0.0137257576, 0)
+ImageLabel_12.Size = UDim2.new(0, 26, 0, 26)
+ImageLabel_12.Image = "http://www.roblox.com/asset/?id=6022668955"
+
+LinkInput.Name = "LinkInput"
+LinkInput.Parent = Loadstringer
+LinkInput.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+LinkInput.BorderSizePixel = 0
+LinkInput.Position = UDim2.new(0.0520094484, 0, 0.476432502, 0)
+LinkInput.Size = UDim2.new(0, 271, 0, 27)
+LinkInput.Font = Enum.Font.Gotham
+LinkInput.PlaceholderText = "Put link here"
+LinkInput.Text = ""
+LinkInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+LinkInput.TextSize = 14.000
+
+UICorner_43.Parent = LinkInput
+
+Credits.Name = "Credits"
+Credits.Parent = MiscFrame
+Credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Credits.Position = UDim2.new(0.0430000015, 0, 0.745000005, 0)
+Credits.Size = UDim2.new(0, 423, 0, 66)
+
+UICorner_44.Parent = Credits
+
+TextLabel_28.Parent = Credits
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.BorderSizePixel = 0
+TextLabel_28.Position = UDim2.new(0.0780141875, 0, 0.075757578, 0)
+TextLabel_28.Size = UDim2.new(0, 357, 0, 27)
+TextLabel_28.Font = Enum.Font.Gotham
+TextLabel_28.Text = "UI by ducky"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+
+TextLabel_29.Parent = Credits
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.BorderSizePixel = 0
+TextLabel_29.Position = UDim2.new(0.0780141875, 0, 0.484848499, 0)
+TextLabel_29.Size = UDim2.new(0, 357, 0, 27)
+TextLabel_29.Font = Enum.Font.Gotham
+TextLabel_29.Text = "Scripting by OwlHub devs, sirius software and ducky"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+
+Drag.Name = "Drag"
+Drag.Parent = Body
+Drag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Drag.BackgroundTransparency = 1.000
+Drag.BorderSizePixel = 0
+Drag.Position = UDim2.new(-0.0178438276, 0, -0.02109663, 0)
+Drag.Size = UDim2.new(0, 579, 0, 346)
+Drag.Visible = false
+Drag.Draggable = true
+
+TextLabel_30.Parent = Body
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_30.BorderSizePixel = 0
+TextLabel_30.Size = UDim2.new(0, 124, 0, 37)
+TextLabel_30.Visible = false
+TextLabel_30.Font = Enum.Font.GothamBold
+TextLabel_30.Text = "Spectre"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 25.000
+TextLabel_30.TextTransparency = 0.600
+
+TextLabel_31.Parent = Dropshadow
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_31.BorderSizePixel = 0
+TextLabel_31.Position = UDim2.new(0.425727397, 0, 0.528905451, 0)
+TextLabel_31.Size = UDim2.new(0, 117, 0, 36)
+TextLabel_31.Visible = false
+TextLabel_31.Font = Enum.Font.Gotham
+TextLabel_31.Text = "Loading..."
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 25.000
+
+UIStroke.Parent = Changelog
+UIStroke.Thickness = 2
+UIStroke.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_2.Parent = Info
+UIStroke_2.Thickness = 2
+UIStroke_2.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_3.Parent = Version
+UIStroke_3.Thickness = 2
+UIStroke_3.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_4.Parent = Settings
+UIStroke_4.Thickness = 2
+UIStroke_4.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_5.Parent = Title
+UIStroke_5.Thickness = 2
+UIStroke_5.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_6.Parent = MusicPlayer
+UIStroke_6.Thickness = 2
+UIStroke_6.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_7.Parent = Title_2
+UIStroke_7.Thickness = 2
+UIStroke_7.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_8.Parent = ESP
+UIStroke_8.Thickness = 2
+UIStroke_8.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_9.Parent = OWLHUB
+UIStroke_9.Thickness = 2
+UIStroke_9.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_10.Parent = Title_3
+UIStroke_10.Thickness = 2
+UIStroke_10.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_11.Parent = Credits
+UIStroke_11.Thickness = 2
+UIStroke_11.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_12.Parent = Misc
+UIStroke_12.Thickness = 2
+UIStroke_12.Color = Color3.fromRGB(45,45,45)
+
+UIStroke_13.Parent = Loadstringer
+UIStroke_13.Thickness = 2
+UIStroke_13.Color = Color3.fromRGB(45,45,45)
+
+-- Scripts:
+
+local function OVKBSIP_fake_script() -- Filler.LocalScript 
+	local script = Instance.new('LocalScript', Filler)
+
+	if not _G.Loaded == true then
+	local lol = script.Parent.Parent.Parent.Parent
+	local percent = script.Parent.Parent.Parent["Loading%"]
+	lol.TextLabel.Visible = true
+	lol.Body.GradientFrame.Visible = true
+	lol.Body["Loading%"].Visible = true
+	lol.Body.Bar.Visible = true
+	lol.Body.Main.Visible = false
+	lol.Body.CoverFrame.Visible = true
+	lol.Body.ImageLabel.Visible = true
+	lol.Draggable = true
+	wait(1)
+	for i = 1, 100 do
+		wait(0.04)
+		percent.Text = i.."%"
+		local formula = i/100
+		script.Parent:TweenSize(UDim2.new(formula, 0, 1, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 0.1, true)
+	end
+	wait(1)
+	local TweenService = game:GetService("TweenService")
+	local time = 1 
+	for b = 1,100 do
+		
+	end
+	local tween = TweenService:Create(lol.Body.CoverFrame , TweenInfo.new(time), {Transparency = 0})
+	tween:Play()
+	wait(0.5)
+	lol.TextLabel.Visible = false
+	lol.Body.GradientFrame.Visible = false
+	lol.Body["Loading%"].Visible = false
+	lol.Body.Bar.Visible = false
+	wait(0.5)
+	lol.Body.Main.Visible = true
+	_G.Loaded = true
+	end
+end
+coroutine.wrap(OVKBSIP_fake_script)()
+local function YUSUVSM_fake_script() -- HomeToggle.LocalScript 
+	local script = Instance.new('LocalScript', HomeToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.LocalPlayerFrame.Visible = false
+		script.Parent.Parent.MusicFrameWIP.Visible = false
+		script.Parent.Parent.ScriptHubFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+	end)
+end
+coroutine.wrap(YUSUVSM_fake_script)()
+local function BCRA_fake_script() -- SettingsToggle.LocalScript 
+	local script = Instance.new('LocalScript', SettingsToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.LocalPlayerFrame.Visible = false
+		script.Parent.Parent.MusicFrameWIP.Visible = false
+		script.Parent.Parent.ScriptHubFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = true
+	end)
+end
+coroutine.wrap(BCRA_fake_script)()
+local function WZMNO_fake_script() -- MusicPlayerToggle.LocalScript 
+	local script = Instance.new('LocalScript', MusicPlayerToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.LocalPlayerFrame.Visible = false
+		script.Parent.Parent.MusicFrameWIP.Visible = true
+		script.Parent.Parent.ScriptHubFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+	end)
+end
+coroutine.wrap(WZMNO_fake_script)()
+local function CMWRKPC_fake_script() -- LocalToggle.LocalScript 
+	local script = Instance.new('LocalScript', LocalToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.LocalPlayerFrame.Visible = true
+		script.Parent.Parent.MusicFrameWIP.Visible = false
+		script.Parent.Parent.ScriptHubFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+	end)
+end
+coroutine.wrap(CMWRKPC_fake_script)()
+local function EXAEMGX_fake_script() -- ScriptHubToggle.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHubToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.LocalPlayerFrame.Visible = false
+		script.Parent.Parent.MusicFrameWIP.Visible = false
+		script.Parent.Parent.ScriptHubFrame.Visible = true
+		script.Parent.Parent.MiscFrame.Visible = false
+	end)
+end
+coroutine.wrap(EXAEMGX_fake_script)()
+local function XFUI_fake_script() -- CloseScript.LocalScript 
+	local script = Instance.new('LocalScript', CloseScript)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Visible = false	
+	end)
+	
+end
+coroutine.wrap(XFUI_fake_script)()
+local function VTZE_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', Time)
+
+	function getTime()
+		return string.gsub(os.date("%I:%M %p"), "^0([0-9])", "%1")
+	end
+	while true do
+		script.Parent.Text = getTime()
+		wait(1)
+	end
+end
+coroutine.wrap(VTZE_fake_script)()
+local function MQVBIZ_fake_script() -- HomeFrame.LocalScript 
+	local script = Instance.new('LocalScript', HomeFrame)
+
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local UserId = player.UserId
+	local ThumbType = Enum.ThumbnailType.HeadShot
+	local ThumbSize = Enum.ThumbnailSize.Size420x420
+	local Content = game.Players:GetUserThumbnailAsync(UserId, ThumbType, ThumbSize)
+	
+	frame.PlayerIcon.Image = Content
+	frame.PlayerName.Text = player.DisplayName
+end
+coroutine.wrap(MQVBIZ_fake_script)()
+local function EJKJBJ_fake_script() -- ApplyWs.LocalScript 
+	local script = Instance.new('LocalScript', ApplyWs)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.WSINPUT.Text
+	end)
+end
+coroutine.wrap(EJKJBJ_fake_script)()
+local function JCFAB_fake_script() -- ApplyJp.LocalScript 
+	local script = Instance.new('LocalScript', ApplyJp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Parent.JPINPUT.Text
+	end)
+end
+coroutine.wrap(JCFAB_fake_script)()
+local function FOUZTK_fake_script() -- ApplyGrav.LocalScript 
+	local script = Instance.new('LocalScript', ApplyGrav)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.Gravity = script.Parent.Parent.GRAVINPUT.Text
+	end)
+end
+coroutine.wrap(FOUZTK_fake_script)()
+local function AYYZKL_fake_script() -- Reset.LocalScript 
+	local script = Instance.new('LocalScript', Reset)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(AYYZKL_fake_script)()
+local function ONPU_fake_script() -- Rejoin.LocalScript 
+	local script = Instance.new('LocalScript', Rejoin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(game.PlaceId)
+	end)
+end
+coroutine.wrap(ONPU_fake_script)()
+local function LPYP_fake_script() -- InfJump.LocalScript 
+	local script = Instance.new('LocalScript', InfJump)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local InfiniteJumpEnabled = true
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			if InfiniteJumpEnabled then
+				game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+			end
+		end)
+	end)
+end
+coroutine.wrap(LPYP_fake_script)()
+local function XIIC_fake_script() -- ESPLaunch.LocalScript 
+	local script = Instance.new('LocalScript', ESPLaunch)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local espLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Sirius/request/library/esp/esp.lua'),true))()
+		espLib.whitelist = {} -- insert string that is the player's name you want to whitelist (turns esp color to whitelistColor in options)
+		espLib.blacklist = {} -- insert string that is the player's name you want to blacklist (removes player from esp)
+		espLib.options = {
+			enabled = true,
+			scaleFactorX = 4,
+			scaleFactorY = 5,
+			font = 2,
+			fontSize = 13,
+			limitDistance = false,
+			maxDistance = 1000,
+			visibleOnly = false,
+			teamCheck = false,
+			teamColor = false,
+			fillColor = nil,
+			whitelistColor = Color3.new(1, 0, 0),
+			outOfViewArrows = true,
+			outOfViewArrowsFilled = false,
+			outOfViewArrowsSize = 25,
+			outOfViewArrowsRadius = 100,
+			outOfViewArrowsColor = Color3.new(1, 1, 1),
+			outOfViewArrowsTransparency = 0.5,
+			outOfViewArrowsOutline = true,
+			outOfViewArrowsOutlineFilled = false,
+			outOfViewArrowsOutlineColor = Color3.new(1, 1, 1),
+			outOfViewArrowsOutlineTransparency = 1,
+			names = true,
+			nameTransparency = 1,
+			nameColor = Color3.new(1, 1, 1),
+			boxes = true,
+			boxesTransparency = 1,
+			boxesColor = Color3.new(1, 1, 1),
+			boxFill = false,
+			boxFillTransparency = 0.5,
+			boxFillColor = Color3.new(1, 1, 1),
+			healthBars = true,
+			healthBarsSize = 1,
+			healthBarsTransparency = 1,
+			healthBarsColor = Color3.new(0, 1, 0),
+			healthText = true,
+			healthTextTransparency = 1,
+			healthTextSuffix = "%",
+			healthTextColor = Color3.new(1, 1, 1),
+			distance = true,
+			distanceTransparency = 1,
+			distanceSuffix = " Studs",
+			distanceColor = Color3.new(1, 1, 1),
+			tracers = true,
+			tracerTransparency = 1,
+			tracerColor = Color3.new(1, 1, 1),
+			tracerOrigin = "Mouse", -- Available [Mouse, Top, Bottom]
+		}
+		espLib.Init()
+	end)
+end
+coroutine.wrap(XIIC_fake_script)()
+local function EUPE_fake_script() -- OWLHUBLaunch.LocalScript 
+	local script = Instance.new('LocalScript', OWLHUBLaunch)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+	end)
+end
+coroutine.wrap(EUPE_fake_script)()
+local function OEQH_fake_script() -- SaveInstance.LocalScript 
+	local script = Instance.new('LocalScript', SaveInstance)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		saveinstance()
+	end)
+end
+coroutine.wrap(OEQH_fake_script)()
+local function JUKCSUA_fake_script() -- LoadString.LocalScript 
+	local script = Instance.new('LocalScript', LoadString)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(script.Parent.Parent.LinkInput.Text))
+	end)
+end
+coroutine.wrap(JUKCSUA_fake_script)()
